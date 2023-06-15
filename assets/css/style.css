@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+form {
+  padding: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* added  */
+body {
+  background-color: #7359dc;
+}
+
+:modal {
+  border-radius: 20px;
+  background-color: lightgray;
+  box-shadow: 3px 3px 10px rgba(0 0 0 / 0.5);
+}
+
+menu button {
+  color: white;
+  background-color: black;
+  outline: none;
+  border: none;
+  margin-left: 5px;
+  font-size: inherit;
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 40px;
+  border-radius: 20px;
+}
+
+input,
+textarea {
+  width: 420px;
+  margin: 10px 0;
+  outline: none;
+  border: black 2px solid;
+  padding: 16px 10px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+  width: 420px;
+  height: 50px;
+  background: #7359dc;
+  border-radius: 5px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 60px 0;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  top: 30px;
+  right: 30px;
+  color: black;
+}
+.close:hover {
+  color: gray;
+}

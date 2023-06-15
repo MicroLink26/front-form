@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <script src="./assets/js/main.js"></script>
+    <!-- Accés au CDN d'Axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <dialog id="favDialog">
+      <form method="dialog" id="contact-form">
+        <i class="close">X</i>
+        <h2>Formulaire de contact</h2>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Prénom"
+          autocomplete="off"
+        />
+
+        <input type="text" name="lastname" id="lastname" placeholder="Nom" />
+
+        <input type="email" name="email" id="email" placeholder="Email" />
+
+        <textarea
+          name="message"
+          id="message"
+          rows="5"
+          cols="50"
+          placeholder="Écrivez ici votre message..."
+          spellcheck="false"
+        ></textarea>
+
+        <menu>
+          <input type="submit" value="Envoyer le formulaire" id="submit-btn" />
+        </menu>
+      </form>
+    </dialog>
+
+    <menu>
+      <button id="updateDetails">Connectez-vous</button>
+    </menu>
+
+    <output aria-live="polite"></output>
+  </body>
+</html>
