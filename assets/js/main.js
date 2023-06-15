@@ -83,7 +83,7 @@ $.addEventListener("DOMContentLoaded", () => {
     //   // console.log({ firstname, lastname, email, message });
 
     const response = await axios.post(
-      "https://site--mailing--ztzpdvfwt7bw.code.run/form",
+      "https://site--mailing--fg6zdpvl2w9z.code.run/form",
       {
         firstname,
         lastname,
